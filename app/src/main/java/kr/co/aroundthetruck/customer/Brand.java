@@ -10,6 +10,17 @@ public class Brand {
     private int like;
     private String category;
 
+    Brand(int brandImage,String brandName, String brandDistance, int like, String category){
+
+        this.brandImage = brandImage;
+        this.brandName= brandName;
+        this.brandDistance = brandDistance;
+        this.like = like;
+        this.category = category;
+
+
+    }
+
     public int getBrandImage(){ return brandImage;}
     public String getBrandName(){
         return brandName;
