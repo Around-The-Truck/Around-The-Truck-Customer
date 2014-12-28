@@ -133,11 +133,11 @@ public class BrandListActivity extends Activity {
         // Handle presses on the action bar items
 
         switch (item.getItemId()) {
-//            case R.id.menu1:
+            case R.id.menu_cate1:
 //                //액션바에 한식 눌렀을 때
-//                return true;
-//            case R.id.menu2:
-//                //액션바에 중식 눌렀을 대
+                return true;
+            case R.id.menu_cate2:
+                //액션바에 중식 눌렀을 대
 //                return true;
             case R.id.search_button:
                 Intent intent =  new Intent(BrandListActivity.this,Searching.class); // main.java 파일에서 이벤트를 발생시켜서 test를 불러옵니다.
