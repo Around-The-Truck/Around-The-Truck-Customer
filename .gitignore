@@ -30,3 +30,6 @@ proguard/
 *.iml
 .DS_Store
 app/build/
+
+# I don't know why it didn't be ignored... --kimsangho
+.idea/workspace.xml
