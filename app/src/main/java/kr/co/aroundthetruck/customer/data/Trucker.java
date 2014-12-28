@@ -6,7 +6,7 @@ package kr.co.aroundthetruck.customer.data;
 public class Trucker {
 
     int idx;
-    String name;
+    String name; //
 
     double gps_longtitude;
     double gps_latitude;

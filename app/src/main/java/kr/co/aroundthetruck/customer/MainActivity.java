@@ -18,7 +18,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         Button truckInfoBtn = (Button)findViewById(R.id.truckinfobtn);
         Button menuBtn = (Button)findViewById(R.id.menubtn);
         Button mapBtn = (Button)findViewById(R.id.mapbtn);
