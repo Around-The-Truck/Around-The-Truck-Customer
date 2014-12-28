@@ -51,9 +51,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 fragmentTransaction.hide(fragment1);
                 break;
 
+
             case R.id.mapbtn :
 
-                //다른 화면 으로 넘어가게 map 아니라 정보 화면임
+                //다른 화면 으로 넘어가게 map 아니라 정보 화면
                 Intent intent =  new Intent(this, BottomInfo.class);   // main.java 파일에서 이벤트를 발생시켜서 test를 불러옵니다.
                 startActivity(intent);
                 break;
