@@ -24,3 +24,8 @@ proguard/
 
 # Log Files
 *.log
+
+# add at 14.12.28
+.idea/
+*.iml
+.DS_Store
