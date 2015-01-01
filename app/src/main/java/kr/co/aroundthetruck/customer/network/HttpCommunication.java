@@ -20,10 +20,12 @@ import android.util.Log;
 
 public class HttpCommunication {
 
+    String buf = "";
+
     public String doPost(ArrayList<NameValuePair> param, String context) {
 
-        String buf = "";
-        String url = "http://54.199.134.170/CawingHttpServer/";
+        String retBuf = "";
+        String url = "http://165.194.35.161:3000/";
 
         // fill in Context
         url += context;
@@ -42,16 +44,35 @@ public class HttpCommunication {
             HttpResponse responsePost = http.execute(httpPost);
             HttpEntity resEntity = responsePost.getEntity();
 
-            buf = EntityUtils.toString(resEntity);
-            buf = buf.trim();
+            retBuf = EntityUtils.toString(resEntity);
+            retBuf = retBuf.trim();
 
         } catch (Exception e) {
             Log.d("exception!","exception");
             e.printStackTrace();
-            buf = "Error";
+            retBuf = "Error";
 
         }
-        return buf;
+        return retBuf;
+    }
 
+    public String getTruckInfo () {
+
+
+
+//        doPost()
+
+        return buf;
+    }
+
+    public String getTruckListWithGPS () {
+
+        return buf;
+    }
+
+
+    public String getTruckListNoGPS () {
+
+        return buf;
     }
 }
