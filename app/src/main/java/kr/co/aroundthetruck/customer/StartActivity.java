@@ -12,7 +12,7 @@ import android.widget.TextView;
  */
 public class StartActivity extends Activity {
 
-    Boolean checkedUser = true;
+    Boolean checkedUser = false;
     //회원가입한 유저인지 아닌지
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class StartActivity extends Activity {
 
         }else {
             //버튼 배경 '푸트트럭 찾기'
-            // startBtn.setBackground();
+            startBtn.setBackgroundResource(R.drawable.start_find);
             welcomeMsg.setText("오수민 환영");
         }
 
