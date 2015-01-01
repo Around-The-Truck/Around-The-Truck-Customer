@@ -26,10 +26,9 @@ proguard/
 *.log
 
 # add at 14.12.28
-.idea/
-*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
-app/build/
-
-# I don't know why it didn't be ignored... --kimsangho
-.idea/workspace.xml
+/build
